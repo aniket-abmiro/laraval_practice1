@@ -1,0 +1,23 @@
+{
+    "name": "shree/demo",
+    "description": "First Project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aniket"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "intervention/image": "^3.0@alpha",
+        "illuminate/collections": "10.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "core\\":"core/",
+            "Http\\":"Http/"
+        }
+    }
+
+}
